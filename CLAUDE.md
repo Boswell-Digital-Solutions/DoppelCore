@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Repo Identity
+
+- Default branch: main
+
 ## Project Overview
 
 DoppelCore is a standalone Rust library that acts as the canonical **machine-truth kernel** for a code-mirror system: code is the authority, DoppelCore mirrors it into typed, JSON-stable truth records, a Registry (elsewhere) governs/verifies/enforces those records, and human-readable documents are deterministic rendered products rather than the authority layer itself. See `docs/doppelcore_canvas_set/` for the full doctrine and phased roadmap.
