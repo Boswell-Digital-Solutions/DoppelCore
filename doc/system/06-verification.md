@@ -34,7 +34,7 @@ The Documentation CI is `.github/workflows/documentation.yml`.
 It runs on changes to `docs/**`, `doc/**`, `**/*.md` and its own file.
 It runs `bash doc/system/BUILD.sh`.
 It fails if `git diff --exit-code -- doc` shows a difference.
-The assembled `doc/DOPSYSTEM.md` must be built from its parts and committed.
+The assembled `doc/dopSYSTEM.md` must be built from its parts and committed.
 
 No scheduled run exists.
 No secret scan or other security scan exists in this repository.

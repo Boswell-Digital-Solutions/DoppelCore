@@ -1,13 +1,13 @@
         # DoppelCore - Compiled System Reference
 
-        **Designation:** DOP
+        **Designation:** dop
         **Document role:** Canonical compiled technical reference for the DoppelCore Rust contract library
         **Source:** `doc/system/`
         **Build command:** `bash doc/system/BUILD.sh`
         **Document version:** 2.0 (2026-06-22) - canonical compliance migration
         **Protocol:** BDS Documentation Protocol v2.0; BDS Repo Documentation System Canonical Compliance Standard
 
-        > **Generated artifact warning:** `doc/DOPSYSTEM.md` is assembled output. Edit
+        > **Generated artifact warning:** `doc/dopSYSTEM.md` is assembled output. Edit
         > the source modules under `doc/system/` and rebuild. Hand edits to the
         > compiled artifact are overwritten by the next build.
 
@@ -15,7 +15,7 @@
 
         - Command: `bash doc/system/BUILD.sh`
         - Validation: `bash doc/system/validate_snapshots.sh` runs during assembly
-        - Primary output: `doc/DOPSYSTEM.md`
+        - Primary output: `doc/dopSYSTEM.md`
 
         This `doc/system/` tree is the canonical source of truth for DoppelCore. It uses
         explicit **truth classes**: canonical facts define repo role, authority
@@ -129,7 +129,7 @@ The Documentation CI is `.github/workflows/documentation.yml`.
 It runs on changes to `docs/**`, `doc/**`, `**/*.md` and its own file.
 It runs `bash doc/system/BUILD.sh`.
 It fails if `git diff --exit-code -- doc` shows a difference.
-The assembled `doc/DOPSYSTEM.md` must be built from its parts and committed.
+The assembled `doc/dopSYSTEM.md` must be built from its parts and committed.
 
 No scheduled run exists.
 No secret scan or other security scan exists in this repository.

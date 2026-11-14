@@ -35,7 +35,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Builds doc/DOPSYSTEM.md from doc/system/ and validates the snapshots.
+      # Builds doc/dopSYSTEM.md from doc/system/ and validates the snapshots.
       - name: Build the system reference
         run: bash doc/system/BUILD.sh
 
